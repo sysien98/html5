@@ -7,13 +7,16 @@
 </head>
 
 <body>
-    <label for="name">Imię i nazwisko</label>
-    <input type="text" name="name" id="name">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-    <label for="telephone">Numer telefonu</label>
-    <input type="number" name="number" id="telephone">
-    <input type="submit" value="Wiadomość">
+    <form action="https://formspree.io/sylwiaxsadowska@gmail.com" method="POST">
+        <label for="name">Imię i nazwisko</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="telephone">Numer telefonu</label>
+        <input type="number" name="number" id="telephone">
+        <textarea name="msg" id="msg"></textarea>
+        <input type="submit" value="Wiadomość">
+    </form>
 </body>
 
 </html>
